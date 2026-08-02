@@ -2,7 +2,7 @@ import { Card } from "../src/card.ts";
 import { CONSTANTS, parseParams } from "../src/utils.ts";
 import { COLORS, Theme } from "../src/theme.ts";
 import { Error400 } from "../src/error_page.ts";
-import "https://jsr.io/@std/dotenv/0.224.2/load.ts";
+import "https://deno.land/x/dotenv@v0.5.0/load.ts";
 import { staticRenderRegeneration } from "../src/StaticRenderRegeneration/index.ts";
 import { GithubRepositoryService } from "../src/Repository/GithubRepository.ts";
 import { GithubApiService } from "../src/Services/GithubApiService.ts";
